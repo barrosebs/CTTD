@@ -1,11 +1,9 @@
 using System;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using TTD.API.Data;
-using TTD.API.Model;
+using TTD.Repository;
 
 namespace TTD.API.Controllers
 {
